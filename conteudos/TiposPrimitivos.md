@@ -13,8 +13,13 @@
 
 **Decimais**
 Perceba que o bit mais à esquerda é sempre usado para determinar se o número será negativo ou positivo.
-O bit é representado por um valor que só pode ser 0 ou 1.
-E um byte tem 8 bits. (saiba fazer uma conversão de binário para decimal, para conseguir entender o intervalo de cada tipo)
+
+- 1 bit
+- 1 byte ==> 8 bits
+- 1 kilobyte ==> 1000 bytes
+- 1 megabyte ==> 1000000 bytes
+- 1 gigabyte ==> 1000000000 bytes
+- 1 terabyte ==> 1000000000000 bytes
 
 ### Lembrando como converter um número binário para decimal...
 
