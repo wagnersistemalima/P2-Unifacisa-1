@@ -11,6 +11,12 @@
 - Samuel: temos a palavra reservada unsigned, como em C++? acho que não
 - Jonathas: os tipos primitivos em Java São os mesmos que usamos em Python? marjoritariamente
 
+## Tipo Booleano
+
+- **boolean**: armazenado em 1 bit, e pode assumir os valores  **false** e **true**
+
+## Tipos Numéricos
+
 **Decimais**
 Perceba que o bit mais à esquerda é sempre usado para determinar se o número será negativo ou positivo.
 
@@ -33,7 +39,7 @@ Perceba que o bit mais à esquerda é sempre usado para determinar se o número 
 
 ==> 10
 
-## Tipos Numéricos
+### Tipos Numéricos Inteiros
 
 - **byte**: 
     - 1 byte (ou 8 bits); no entanto, o bit mais à esquerda é usado para determinar o sinal (0positivo/1negativo); logo, o intervalo é de -128 à 127.
@@ -58,5 +64,23 @@ Perceba que o bit mais à esquerda é sempre usado para determinar se o número 
 
 - **long**:
     - possui 64 bits (ou 8 bytes); o bit mais à esquerda é usado para determinar o sinal (0positivo/1negativo); logo, o intervalo é de -9.223.372.036.854.775.808 à 9.223.372.036.854.775.807
+    
+### Tipos Numéricos de Ponto Flutuante
 
+- **float**: cabe em 4 bytes (ou 32 bits); intervalo: 1.40129846432481707e-45 à 3.40282346638528860e+38 
+
+- **double**: cabe em 8 bytes (ou 64 bits); intervalo: 4.94065645841246544e-324d à 1.79769313486231570e+308d
+
+### Sobre Performance
+
+Tipos menores não melhoram a performance, mas precisamos ter um espírito crítico (e razoavelmente econômico) para saber escolher os tipos mais adequados.
+
+## Tipos Textuais
+
+- **char**: 
+    - armazena um caractere, como 'a', 'b', ..., 'z', você pode usar o tipo char. Ele é armazenado em 2 bytes.
+
+- **String**: 
+    - não é um tipo primitivo (é um OBJETO), mas pode ser usado como se fosse um tipo primitivo
+    - armazena textos entre áspas duplas; Ex: "Eduardo", "POO"
 
