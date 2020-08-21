@@ -5,3 +5,5 @@ Repositório da disciplina Programação 2 do curso de SI da UniFacisa, contendo
 ## RoadMap
 
 [1 - Tipos primitivos](conteudos/TiposPrimitivos.md)
+
+[2 - Operadores](conteudos/Operadores.md).
