@@ -6,7 +6,7 @@ public class DataTexto {
 	//Formato data textual: 5 de dezembro de 2020
 	
 	public static void main(String[] args) {
-		short dia = 5, mes = 15, ano =  2020;
+		short dia = 5, mes = 1, ano =  2020;
 		String mesTexto = converteMesNumPraTexto(mes);
 		System.out.println(dia+" de "+mesTexto+" de "+ano);
 	}
