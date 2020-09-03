@@ -8,4 +8,6 @@ Repositório da disciplina Programação 2 do curso de SI da UniFacisa, contendo
 
 [2 - Operadores](conteudos/Operadores.md)
 
+[3 - Estruturas Condicionais](conteudos/EstruturasCondicionais.md)
+
 [Alguns comandos Git](https://gist.github.com/eduardolfalcao/27ae2effd7fd19dccaf4df2200c6fdcd)
