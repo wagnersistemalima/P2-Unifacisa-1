@@ -14,8 +14,27 @@ class Pessoa{
 	//Pessoa(){
 	//	System.out.println("O construtor foi chamado!!");
 	//}
+	
+	Pessoa(){}
+	
+	Pessoa(String nome){
+		this.nome = nome;
+	}
+	
+	Pessoa(char sexo){
+		this.sexo = sexo;
+	}
 
 	Pessoa(char sexo, int idade, String nome, double peso, double altura, String cpf){
+		this.sexo = sexo;
+		this.idade = idade;
+		this.nome = nome;
+		this.peso = peso;
+		this.altura = altura;
+		this.cpf = cpf;
+	}
+	
+	Pessoa(int idade, String nome, double peso, double altura, String cpf, char sexo){
 		this.sexo = sexo;
 		this.idade = idade;
 		this.nome = nome;
