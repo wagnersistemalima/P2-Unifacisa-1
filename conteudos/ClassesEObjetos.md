@@ -273,7 +273,7 @@ class MainRefeicao{
 ```
 ---
 
-[Exercícios de Classes, Objetos e Construtores](exercicios/ClassesEObjetos.md)
+[Exercícios de Classes, Objetos e Construtores](../exercicios/ClassesEObjetos.md)
 
 ---
 
