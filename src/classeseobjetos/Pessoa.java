@@ -64,5 +64,17 @@ class Pessoa{
 			System.out.println("Obesidade III");
 		}		
 	}
+	
+
+	public String toString() {
+		String pessoa = "";
+		pessoa += "Nome: "+nome+"\n";
+		pessoa += "Idade: "+idade+"\n";
+		pessoa += "CPF: "+cpf+"\n";
+		pessoa += "Sexo: "+sexo+"\n";
+		pessoa += "Peso: "+peso+"\n";
+		pessoa += "Altura: "+altura+"\n";
+		return pessoa;
+	}
 
 }

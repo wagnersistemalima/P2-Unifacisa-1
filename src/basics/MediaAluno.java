@@ -23,6 +23,8 @@ public class MediaAluno {
 			}
 		}
 		
+		entrada.close();
+		
 		System.out.println(media/cont);
 	}
 
