@@ -2,7 +2,7 @@
 
 ## Questão 1
 
-Reaproveite a classe Carro [deste exercício](https://github.com/eduardolfalcao/POO-Unifacisa/blob/master/conteudo/exercicios/ClassesEObjetos.md).
+Reaproveite a classe Carro [deste exercício](ClassesEObjetos.md).
 Além das variáveis de instância, crie a seguinte variável de classe: *boolean promocao*.
 Se promocao for verdadeiro, adicione um desconto de 10% ao preço do carro.
 Para isto, modifique a função *calculaPreco*.
