@@ -1,6 +1,6 @@
 package classeseobjetos;
 
-class Pessoa{
+public class Pessoa{
 
 	char sexo;
 	int idade;
@@ -17,7 +17,7 @@ class Pessoa{
 	
 	Pessoa(){}
 	
-	Pessoa(String nome){
+	public Pessoa(String nome){
 		this.nome = nome;
 	}
 	
