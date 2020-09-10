@@ -224,4 +224,4 @@ O método estático, assim como a variável estática, também pertence à class
 Se assim o fosse, primeiro seria preciso criar um objeto de Refeicao, mas nesse caso o cliente ainda não saberia quais seriam as opções disponíveis.
 
 ---
-[Exercícios de Variáveis e Métodos de Instância e de Classe](exercicios/VariaveisEMetodosDeInstanciaEDeClasse.md)
+[Exercícios de Variáveis e Métodos de Instância e de Classe](../exercicios/VariaveisEMetodosDeInstanciaEDeClasse.md)
