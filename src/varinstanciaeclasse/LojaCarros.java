@@ -10,7 +10,7 @@ public class LojaCarros {
 //		Volkswagen Gol completo, de preço básico R$ 55000 (use o construtor vazio)
 		
 		Carro palio1 = new Carro("Pálio", "Fiat", 35000);
-		Carro palio2 = new Carro("Pálio", "Fiat", "PRATA", 2, false, false, false, false, 35000);
+		Carro palio2 = new Carro("Pálio", "Fiat", "BRANCO", 2, false, false, false, false, 35000);
 		Carro civic = new Carro("Civic", "Honda", "AMARELA", 4, true, true, true, true, 110000);
 		Carro corolla = new Carro("Corolla", "Toyota", "AMARELA", 4, true, true, false, true, 110000);
 		Carro gol = new Carro("Gol", "Volkswagen", "VERDE", 4, true, true, true, true, 55000);
