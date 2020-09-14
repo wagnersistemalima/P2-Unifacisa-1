@@ -15,7 +15,7 @@ Em seguida, instancie os seguintes carros:
  - Fiat Pálio básico com cor prateada, de preço básico R$ 35000
  - Honda Civic completo, de preço básico R$110000
  - Toyota Corolla com vidro, direção e ar, de preço básico R$110000
- - Volkswagen Gol completo, de preço básico R$ 55000 (use o construtor vazio)
+ - Volkswagen Gol completo, de preço básico R$ 55000 
 
 Depois de instanciar os carros, imprima os valores de todos eles (neste momento, o valores não terão desconto).
 
