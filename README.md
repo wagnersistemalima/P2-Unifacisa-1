@@ -18,6 +18,8 @@ Repositório da disciplina Programação 2 do curso de SI da UniFacisa, contendo
 
 &nbsp;  &nbsp;  [5.2 - Encapsulamento](conteudos/Encapsulamento.md).
 
-&nbsp;  &nbsp;  [5.3 - Strings](conteudo/Strings.md).
+&nbsp;  &nbsp;  [5.3 - Strings](conteudos/Strings.md).
+
+&nbsp;  &nbsp;  [5.4 - Strings](conteudos/Arrays.md).
 
 [Alguns comandos Git](https://gist.github.com/eduardolfalcao/27ae2effd7fd19dccaf4df2200c6fdcd)
