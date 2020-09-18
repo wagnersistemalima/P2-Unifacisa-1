@@ -2,10 +2,14 @@ package varinstanciaeclasse;
 
 public class Carro {
 	
-	//TODO: mudar cor de String para ENUM
-	String nome, marca, cor;
+	static boolean promocao;
+	
+	String nome, marca;
+	Cor cor;
 	int portas;
 	boolean vidroEletrico, arCondicionado, cambioAutomatico, direcaoEletrica;
+	
+	//final: essa variável é uma constante (seu valor não muda)
 	final double precoBase;
 	
 	// um construtor que tem como argumento nome, marca, e precoBase. 
@@ -19,7 +23,7 @@ public class Carro {
 		
 		/* Carro básico */
 		this.portas = 2;
-		this.cor = "BRANCA";
+		this.cor = Cor.BRANCA;
 		this.vidroEletrico = false;
 		this.arCondicionado = false;
 		this.cambioAutomatico = false;
@@ -27,7 +31,7 @@ public class Carro {
 	}
 	
 	// construtor com todos os argumentos
-	Carro(String nome, String marca, String cor, 
+	Carro(String nome, String marca, Cor cor, 
 			int portas, boolean vidroEletrico, 
 			boolean arCondicionado, boolean cambioAutomatico, 
 			boolean direcaoEletrica, double precoBase){
@@ -40,8 +44,7 @@ public class Carro {
 		this.cambioAutomatico = cambioAutomatico;
 		this.direcaoEletrica = direcaoEletrica;
 		this.precoBase = precoBase;		
-	}	
-	
+	}		
 	
 	// função que calcula preco do carro de acordo com opcionais
 	double calculaPreco() {
@@ -49,21 +52,24 @@ public class Carro {
 		double preco = precoBase;
 		
 		switch(cor) {
-			case "BRANCA":
-			case "AZUL":
-			case "VERMELHA":
-			case "PRETA": break;
+			case BRANCA:
+			case AZUL:
+			case VERMELHA:
+			case PRETA: break;
 			default: preco += 1000;
 		}
 		
-		if(vidroEletrico)
+		if(this.vidroEletrico)
 			preco += 1250;
-		if(arCondicionado)
+		if(this.arCondicionado)
 			preco += 1250;
-		if(cambioAutomatico)
+		if(this.cambioAutomatico)
 			preco += 1250;
-		if(direcaoEletrica)
-			preco += 1250;	
+		if(this.direcaoEletrica)
+			preco += 1250;
+		
+		if(Carro.promocao)
+			preco = 0.9 * preco;
 		
 		return preco;
 	}
@@ -75,7 +81,7 @@ public class Carro {
 		desc += "Portas: "+portas+"\n";
 		desc += "Vidro eletrico: "+(vidroEletrico?"X":"")+", Ar Condicionado: "+(arCondicionado?"X":"")+"\n";
 		desc += "Cambio automatico: "+(cambioAutomatico?"X":"")+", Direcao eletrica: "+(direcaoEletrica?"X":"")+"\n";
-		desc += "Preco: "+calculaPreco()+"\n";
+		desc += "Preco: "+calculaPreco()+", Promoção: "+(promocao?"X":"")+"\n";
 		return desc;
 	}
 
