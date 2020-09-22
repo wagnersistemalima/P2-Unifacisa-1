@@ -4,7 +4,7 @@
 
 - **String formataAtributo(String atributo)**: atributos iniciam com letra minúscula e devem estar no formato camelCase; Ex: *"quantidade de questoes"* ==> *"quantidadeDeQuestoes"*
 
-- **String formataMetodo(String metodo)**: métodos iniciam com letra minúscula e devem estar no formato camelCase; Ex: *"get quantidade de questoes"* ==> *"getQuantidadeDeQuestoes"*
+- **String formataMetodoGet(String metodo)**: métodos get iniciam com get + identificador da variável no formato camelCase; Ex: *"quantidade de questoes"* ==> *"getQuantidadeDeQuestoes"*
 
 - **String formataClasse(String classe)**: classes iniciam com letras maiúsculas devem estar no formato camelCase; Ex: *"formatador de identificadores"* ==> *"FormatadorDeIdentificadores"*
 
