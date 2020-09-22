@@ -19,13 +19,14 @@ public class TesteArrays {
 //		boolean[] mat = new boolean[] {true, true, false, false};
 //		char[] nome = new char[] {'e', 'd', 'u', 'a', 'r', 'd', 'o'};
 		
-//		Pessoa[] alunos = new Pessoa[] {
-//										new Pessoa("Eduardo", 31),
-//										new Pessoa("Breno", 25),
-//										new Pessoa("Wagner", 26),
-//										new Pessoa("Raquel", 24)
-//										};
-//		alunos[0] = new Pessoa("Johnathan", 23);
+		Pessoa[] alunos = new Pessoa[] {
+										new Pessoa("Eduardo", 31),
+										new Pessoa("Breno", 25),
+										new Pessoa("Wagner", 26),
+										new Pessoa("Raquel", 24)
+										};
+		
+		alunos[0] = new Pessoa("Johnathan", 23);
 //		nao pode
 //		alunos[1] = 4.0f;
 		

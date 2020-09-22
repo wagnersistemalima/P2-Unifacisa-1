@@ -2,6 +2,7 @@ package strings;
 
 public class StringUtils {
 	
+	//"quantidade de questoes" ==> "quantidadeDeQuestoes" 
 	public static String formataAtributo(String atributo) {
 		//atributo ==> "quantidade de questoes"
 		String[] palavras = atributo.split(" ");
@@ -20,5 +21,23 @@ public class StringUtils {
 		
 		return atributoFormatado;
 	}
-
+	
+	//"get quantidade de questoes" ==> "getQuantidadeDeQuestoes"
+	public static String formataMetodo(String metodo) {
+		//"get quantidade de questoes" ==> "quantidadeDeQuestoes"
+		String aux = StringUtils.formataAtributo(metodo);
+		
+		//transformando inicial da String para maiúsculo
+		char ini = aux.toUpperCase().charAt(0);	
+		//"Q" + "uantidadeDeQuestoes"
+		String out = ini+aux.substring(1);
+		
+		//"get" + "QuantidadeDeQuestoes"
+		out = "get"+out; 
+		return out;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(StringUtils.formataMetodo("quantidade de questoes"));
+	}
 }
