@@ -6,16 +6,16 @@ public class Musica{
 	//número de vezes que foi reproduzida
 	private String nome, artista, letra;
 	private Genero genero;
-	private int anoLancamento, numReproduzida;
+	private int ano, numReproduzida;
 	private double duracao;
 	
 	public Musica(String nome, String artista, String letra, Genero genero,
-				  int anoLancamento, double duracao) {
+				  int ano, double duracao) {
 		this.nome = nome;
 		this.artista = artista;
 		this.letra = letra;
 		this.genero = genero;
-		this.anoLancamento = anoLancamento;
+		this.ano = ano;
 		this.numReproduzida = 0;
 		this.duracao = duracao;
 	}
@@ -36,8 +36,8 @@ public class Musica{
 		return genero;
 	}
 	
-	public int getAnoLancamento() {
-		return anoLancamento;
+	public int getAno() {
+		return ano;
 	}
 	
 	public int getNumReproduzida() {
@@ -56,7 +56,7 @@ public class Musica{
 	public String toString() {
 		String out = "";
 		out += artista+"/"+nome+"/"+duracao+"\n";
-		out += genero+"/"+anoLancamento+"/"+numReproduzida;
+		out += genero+"/"+ano+"/"+numReproduzida;
 		return out;
 	}	
 }
