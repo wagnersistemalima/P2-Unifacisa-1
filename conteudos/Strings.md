@@ -188,7 +188,7 @@ nomeCompleto.append(" Falcao");
 System.out.println(nomeCompleto);
 ```
 
-Nesse caso, ao criar um objeto da classe StringBuiler, apenas um objeto é criado. Nenhuma memória é "desperdiçada".
+Nesse caso, ao criar um objeto da classe StringBuilder, apenas um objeto é criado. Nenhuma memória é "desperdiçada".
 Esse código poderia ser representado com a seguinte imagem:
 
 ![alt text](imgs/stringbuilder.png)
