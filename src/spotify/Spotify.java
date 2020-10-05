@@ -100,6 +100,72 @@ public class Spotify {
 		}
 	}
 	
+	public Genero getGeneroMaisPopular() {
+		int[] cont = new int[9];
+		
+		for(int i = 0; i < qtdadeMusicas; i++) {
+			switch(this.musicas[i].getGenero()){
+				case BLUES:					
+					cont[Genero.BLUES.getI()]++;
+					break;
+				case CLASSICO:					
+					cont[Genero.CLASSICO.getI()]++;
+					break;
+				case FORRO:					
+					cont[Genero.FORRO.getI()]++;
+					break;
+				case FUNK:					
+					cont[Genero.FUNK.getI()]++;
+					break;
+				case JAZZ:					
+					cont[Genero.JAZZ.getI()]++;
+					break;
+				case PAGODE:					
+					cont[Genero.PAGODE.getI()]++;
+					break;
+				case RAP:					
+					cont[Genero.RAP.getI()]++;
+					break;
+				case ROCK:					
+					cont[Genero.ROCK.getI()]++;
+					break;
+				case SAMBA:					
+					cont[Genero.SAMBA.getI()]++;
+					break;					
+			}
+		}
+		
+		//[0,2,1,4,7,9,0,1]
+		int indexMaior = 0;
+		for(int i = 0; i < cont.length; i++) {
+			if(cont[i]>cont[indexMaior])
+				indexMaior = i;
+		}
+		
+		switch(indexMaior){
+			case 0:					
+				return Genero.BLUES;
+			case 1:					
+				return Genero.CLASSICO;
+			case 2:					
+				return Genero.FORRO;
+			case 3:					
+				return Genero.FUNK;
+			case 4:					
+				return Genero.JAZZ;
+			case 5:					
+				return Genero.PAGODE;
+			case 6:					
+				return Genero.RAP;
+			case 7:					
+				return Genero.ROCK;
+			case 8:					
+				return Genero.SAMBA;
+			default:
+				return null;
+		}
+	}
+	
 	public static void main(String[] args) {
 		Spotify spt = new Spotify(5);
 		spt.adicionarMusica(new Musica("Musica1", "Artista1", "abc", Genero.FORRO, 1999, 3.5));
@@ -114,7 +180,7 @@ public class Spotify {
 		
 		System.out.println("\n############\n");
 		
-		spt.adicionarMusica(new Musica("Musica6", "Artista6", "pqr", Genero.POP, 2016, 3.75));
+		spt.adicionarMusica(new Musica("Musica6", "Artista6", "pqr", Genero.JAZZ, 2016, 3.75));
 		
 		for(Musica m : spt.musicas) {
 			System.out.println(m);
