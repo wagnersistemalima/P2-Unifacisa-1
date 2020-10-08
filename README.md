@@ -22,4 +22,8 @@ Repositório da disciplina Programação 2 do curso de SI da UniFacisa, contendo
 
 &nbsp;  &nbsp;  [5.4 - Arrays](conteudos/Arrays.md).
 
+&nbsp;  &nbsp;  [5.5 - Listas](conteudos/Listas.md).
+
+[6 - Reuso](conteudos/Reuso.md)
+
 [Alguns comandos Git](https://gist.github.com/eduardolfalcao/27ae2effd7fd19dccaf4df2200c6fdcd)

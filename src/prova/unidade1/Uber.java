@@ -11,7 +11,7 @@ public class Uber {
 	}
 	
 	public void solicitarCorrida(Corrida corrida) {
-		if(qtdadeCorridas >= corridas.length) {
+		if(qtdadeCorridas == corridas.length) {
 			Corrida[] corridasAux = new Corrida[2*qtdadeCorridas];
 			for(int i = 0; i < qtdadeCorridas; i++) {
 				corridasAux[i] = corridas[i];
@@ -20,10 +20,10 @@ public class Uber {
 		}
 		this.corridas[qtdadeCorridas] =  corrida;
 		this.qtdadeCorridas++;
-	}
+	}	
 	
 	public void solicitarCorrida(Data dataPedido, String cliente, String inicio, String destino, double km) {
-		this.solicitarCorrida(new Corrida(dataPedido,cliente,inicio,destino,km));
+		this.solicitarCorrida(new Corrida(dataPedido, cliente, inicio, destino, km));
 	}
 	
 	public int getQtdadeCorridas() {

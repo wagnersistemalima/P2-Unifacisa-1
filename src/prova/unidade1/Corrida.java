@@ -28,6 +28,22 @@ public class Corrida {
 		return res;
 	}
 	
+	@Override
+	public boolean equals(Object o) {
+		if(o == null)
+			return false;
+		else if(o instanceof Corrida) {
+			Corrida c = (Corrida) o;
+			if(this.dataPedido.equals(c.getDataPedido()) &&
+				this.cliente.equals(c.getCliente()) &&
+				this.inicio.equals(c.getInicio()) &&
+				this.destino.equals(c.getDestino()) &&
+				this.km == c.getKm())
+				return true;
+		}
+		return false;
+	}
+	
 	public Data getDataPedido() {
 		return dataPedido;
 	}
