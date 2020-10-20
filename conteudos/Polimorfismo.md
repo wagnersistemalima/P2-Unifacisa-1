@@ -238,4 +238,4 @@ Dicas:
 
 ______
 
-[Exercícios de Polimorfismo](exercicios/Polimorfismo.md)
+[Exercícios de Polimorfismo](../exercicios/Polimorfismo.md)
