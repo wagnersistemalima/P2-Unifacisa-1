@@ -26,4 +26,6 @@ Repositório da disciplina Programação 2 do curso de SI da UniFacisa, contendo
 
 [6 - Reuso](conteudos/Reuso.md)
 
+[7 - Polimorfismo](conteudos/Polimorfismo.md)
+
 [Alguns comandos Git](https://gist.github.com/eduardolfalcao/27ae2effd7fd19dccaf4df2200c6fdcd)
