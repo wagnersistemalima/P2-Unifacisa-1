@@ -9,7 +9,7 @@ Vamos experimentar alguns exemplos que abordem essa situação.
 Implemente a seguinte hierarquia de classes. 
 
 <p align="center">
-  <img src="https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/conteudo/imgs/uml-polimorfismo-animais.png" width="450" height="308"/>
+  <img src="https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/conteudos/imgs/uml-polimorfismo-animais.png" width="450" height="308"/>
 </p>
 
 Nas funções void, apenas exiba a ação que está acontecendo. 
@@ -31,7 +31,7 @@ Imagine que estamos implementando o jogo de Mortal Kombat.
 Implemente a seguinte hierarquia de classes. 
 
 <p align="center">
-  <img src="https://github.com/eduardolfalcao/POO-Unifacisa/blob/master/conteudo/imgs/mk.png"/ width="550" height="550">
+  <img src="https://github.com/eduardolfalcao/P2-Unifacisa/blob/master/conteudos/imgs/mk.png"/ width="550" height="550">
 </p>
 
 - Crie construtores (lembre-se do reuso, subclasse reusa construtor da superclasse)
